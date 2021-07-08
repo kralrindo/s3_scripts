@@ -198,7 +198,7 @@ struct
 	array<var>         minimapTopos
 	table<entity, var> minimapTopoClientEnt
 
-	//
+	// fullscreen map
 	var   mapAimRui
 	var   mapTopo
 	var   mapTopoBG
