@@ -482,12 +482,12 @@ array<ChallengeGroupData> function GetPlayerChallengeGroupData( entity player )
 	//
 	for ( int i = 0 ; i < NUM_CHALLENGE_WEEKS_MAX ; i++ )
 	{
-		int groupIndex = GetPersistentVarAsInt( "weeklyGroupOrder[" + i + "]" )
-		if ( groupIndex == 0 )
-			break //
-		challenges = GetAssignedChallengesByTimeSpan( player, eChallengeTimeSpanKind.SEASON_WEEKLY, groupIndex )
-		if ( challenges.len() > 0 )
-			groupData.append( CreateChallengeGroup( player, Localize( "#CHALLENGE_GROUP_WEEKLY", i + 1 ), challenges, eChallengeTimeSpanKind.SEASON_WEEKLY ) )
+	//	int groupIndex = GetPersistentVarAsInt( "weeklyGroupOrder[" + i + "]" )
+	//	if ( groupIndex == 0 )
+		//	break //
+	challenges = GetAssignedChallengesByTimeSpan( player, eChallengeTimeSpanKind.SEASON_WEEKLY )
+	if ( challenges.len() > 0 )
+		groupData.append( CreateChallengeGroup( player, Localize( "#CHALLENGE_GROUP_WEEKLY", i + 1 ), challenges, eChallengeTimeSpanKind.SEASON_WEEKLY ) )
 	}
 
 	return groupData
