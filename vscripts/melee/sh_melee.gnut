@@ -346,6 +346,16 @@ bool function AttackerCanStartMelee( entity attacker, entity inputWeaponOrNull, 
 
 	//if ( PlayerIsInMeleeBlockingADS( attacker ) )
 	//	return false
+	
+	if ( attacker.IsPhaseShifted() )
+    {
+        return false
+    }
+	
+	if ( attacker.Player_IsFreefalling() )
+    {
+        return false
+    }
 
 	if ( attacker.Lunge_IsActive() )
 		return false
