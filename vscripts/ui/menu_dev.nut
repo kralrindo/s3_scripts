@@ -741,9 +741,7 @@ void function SetDevMenu_Prototypes( var _ )
 
 void function SetupPrototypesDevMenu()
 {
-	#if(true)
 		SetupDevCommand( "Change to Shadow Squad", "script Dev_ShadowFormEnable( GP() )" )
-	#endif
 }
 
 
