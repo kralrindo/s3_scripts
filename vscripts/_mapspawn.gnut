@@ -187,7 +187,6 @@ void function CodeCallback_MapSpawn() // original script entry point
 	RegisterSignal( "CancelTryRelinquishSquadLeaderOrBreakFromSquad" )
 	RegisterSignal( "GameStateChanged" )
 	RegisterSignal( "CleanupOutsideCircle" )
-	RegisterSignal( "CleanupOutsideCircle" )
 
 	_cc = CreateEntity( "point_clientcommand" )
 	_sc = CreateEntity( "point_servercommand" )
