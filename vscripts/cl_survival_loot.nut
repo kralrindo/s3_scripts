@@ -65,7 +65,6 @@ struct {
 
 	var[eLootPromptStyle._COUNT]                lootPromptRui
 	table<int, var[eLootPromptStyle._COUNT]>    lootTypePromptRui
-	table<entity, EHI>                          TEMP_boxToEHI
 
 	float nextHealthAllowTime = 0
 
