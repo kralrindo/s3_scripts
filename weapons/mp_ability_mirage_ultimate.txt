@@ -14,7 +14,7 @@ WeaponData
 	"weaponClass" 									"human"
 	"weaponType"									"tactical"
 	"fire_mode"   									"offhand"
-	"offhand_default_inventory_slot"				"1"
+	"offhand_default_inventory_slot"				"4"
 	"offhand_keep_primary_in_hand"					"0"
 	"offhand_holster_primary"						"1"
     "hide_holstered_sidearm_when_active"			"1"

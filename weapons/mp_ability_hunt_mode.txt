@@ -16,7 +16,7 @@ WeaponData
 	"weapon_type_flags"								"WPT_ULTIMATE"
 	"weaponClass" 									"human"
 	"fire_mode"   									"offhand"
-	"offhand_default_inventory_slot"				"1"
+	"offhand_default_inventory_slot"				"4"
 	"offhand_interupts_weapon_anims"				"1"
 	"offhand_hold_enabled"							"0"
 
