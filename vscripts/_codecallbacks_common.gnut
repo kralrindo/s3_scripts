@@ -256,7 +256,7 @@ void function InitRespawnPlayer(entity player)
 	// settings/player/mp/pilot_survival_crypto.rpak		Crypto
 
 	player.SetPlayerSettingsWithMods( $"settings/player/mp/pilot_survival_barricade.rpak", [] )	
-	asset thirdperson = $"mdl/humans/pilots/pilot_medium_reaper_m.rmdl"
+	asset thirdperson = $"mdl/Weapons/arms/pov_pilot_light_wattson.rmdl"
 	asset firstperson = $"mdl/Weapons/arms/pov_pilot_medium_holo_legendary_02.rmdl"
 	printt("setting player (", player.GetPlayerName(), ") settings for character " + ItemFlavor_GetHumanReadableRef( character ))
 if( !IsLobby() )
